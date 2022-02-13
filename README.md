@@ -1,7 +1,7 @@
 # portfolioWebpage
 
 ## Purpose
-A website that provides potential employers to view portfolio projects. 
+A website that provides potential employers the ability to view portfolio projects. 
 
 ## Built With
 * HTML
