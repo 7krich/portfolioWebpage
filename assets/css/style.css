@@ -70,6 +70,60 @@ header nav ul li a:hover {
     padding-bottom: 25px;
 }
 
+/* hero styles */
+.hero-background {
+    background-color:rgba(121, 121, 121, 0.671);
+    opacity: .75
+}
+
+.hero {
+    background-image: url("../images/portfolioPortrait.jpg");
+    background-size: 585px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 75px;
+    padding: 22.5% 0 22.5% 8%;
+    position: relative;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(231, 247, 252);
+    text-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+}
+
+h3 {
+    font-size: 3vw;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.project-collage .project-item #feature  {
+    background-image: url("../images/runBuddyScreenshot.jpeg");
+    background-size: 585px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
     /* this will be applied to any screen smaller than 980px */
@@ -92,5 +146,7 @@ header nav ul {
 
 header nav ul li a {
     font-size: 20px;
+
+
 }
 }
