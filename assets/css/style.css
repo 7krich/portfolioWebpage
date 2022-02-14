@@ -111,10 +111,14 @@ h2 {
 }
 
 /* project styles */
+#projects {
+    background-color:rgba(240, 240, 240, 0.733);
+    padding-bottom: 30px;
+}
+
 .project-item {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .feature-item img {
@@ -138,6 +142,10 @@ h4 {
     font-size: 2vw;
 }
 
+#about-me {
+    padding-bottom: 30px;
+}
+
 #about-me p, #contact p {
     line-height: 20px;
     width: 50%;
@@ -157,11 +165,12 @@ h4 {
 .feature-item img, .small-project img {
     border-radius: 4px;
     box-shadow: 0 0 30px rgba(83, 83, 83, 0.473);
+    opacity: .5;
 }
 
-.feature-item img, .small-project img:hover {
+.feature-item img:hover, .small-project img:hover {
     transition-duration: 1s;
-    background-color: rgb(104, 104, 104);
+    opacity: 1;
 }
 
 h5 {
@@ -177,14 +186,37 @@ h5 a {
     letter-spacing: 1px;
 }
 
+/* contact container */
+#contact {
+    background-color:rgba(240, 240, 240, 0.733);
+    padding-bottom: 30px;
+}
 
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
 
+/* footer styles */
+footer {
+    background-color:rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+}
 
-
-
-
-
-
+footer p {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    letter-spacing: .75px;
+}
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
