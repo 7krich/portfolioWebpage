@@ -77,7 +77,8 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("../images/portfolioPortrait.jpg");
+    background-image: url("![portfolioPortrait](https://user-images.githubusercontent.com/97630036/153790424-df53a2ab-b0f7-4e76-8a67-638cfd15c35a.jpg")
+    );
     background-size: 585px;
     background-repeat: no-repeat;
     display: flex;
@@ -107,7 +108,7 @@ h3 {
 }
 
 .project-collage .project-item #feature  {
-    background-image: url("../images/runBuddyScreenshot.jpeg");
+    background-image: url("![runBuddyScreenshot](https://user-images.githubusercontent.com/97630036/153790504-0476e140-fb70-4cf4-a684-5298a22447ac.jpeg)");
     background-size: 585px;
     background-repeat: no-repeat;
     display: flex;
