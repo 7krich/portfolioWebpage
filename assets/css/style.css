@@ -146,7 +146,7 @@ h4 {
     padding-bottom: 30px;
 }
 
-#about-me p, #contact p {
+#about-me p {
     line-height: 20px;
     width: 50%;
     margin: auto;
@@ -165,7 +165,7 @@ h4 {
 .feature-item img, .small-project img {
     border-radius: 4px;
     box-shadow: 0 0 30px rgba(83, 83, 83, 0.473);
-    opacity: .5;
+    opacity: .75;
 }
 
 .feature-item img:hover, .small-project img:hover {
@@ -222,26 +222,72 @@ footer p {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
     /* this will be applied to any screen smaller than 980px */
-header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        border: none;
+    }
+
+    .hero img {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .hero-text h2 {
+        margin: auto;
+        text-align: center;
+    }
 }
 
-header h1 {
-    width: 100%;
-    text-align: center;
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    /* this will be applied on any screen between 768px and 575px */
+    .feature-item img {
+        width: 80%;
+    }
+
+    .small-project img {
+        width: 50%;
+    }
+
+    #about-me p {
+        width: 90%;
+    }
 }
 
-header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-}
+/* MEADIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    /* this will be applied on any screen smaller than 575px */
+    body {
+        position:relative;
+    }
 
-header nav ul li a {
-    font-size: 20px;
+    .hero-text h2 {
+        margin: auto;
+        text-align: center;
+        font-size: 10vw;
+    }
 
+    .hero img {
+        width: 100%;
+    }
 
-}
+    .contact-container {
+        font-size: 4vw;
+    }
+
+    footer p{
+        font-size: 3vw;
+    }
 }
