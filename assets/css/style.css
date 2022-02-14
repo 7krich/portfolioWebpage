@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-image: url("![lightGrayGradient](https://user-images.githubusercontent.com/97630036/153790271-ebe4ca14-1718-463a-b850-27b7f8c117e1.png)");
+    background-image: url("![lightGrayGradient](https://user-images.githubusercontent.com/97630036/153793579-313ad5fb-4e89-4430-a33d-017650ea7945.png)");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -77,7 +77,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("![portfolioPortrait](https://user-images.githubusercontent.com/97630036/153790424-df53a2ab-b0f7-4e76-8a67-638cfd15c35a.jpg");
+    background-image: url("![portfolioPortrait](https://user-images.githubusercontent.com/97630036/153793620-b1b1a135-16ee-4b69-9568-5db6226051f9.jpg)");
     background-size: 585px;
     background-repeat: no-repeat;
     display: flex;
@@ -107,7 +107,7 @@ h3 {
 }
 
 .project-collage .project-item #feature  {
-    background-image: url("![runBuddyScreenshot](https://user-images.githubusercontent.com/97630036/153790504-0476e140-fb70-4cf4-a684-5298a22447ac.jpeg)");
+    background-image: url("![runBuddyScreenshot](https://user-images.githubusercontent.com/97630036/153793668-dc2299aa-07c3-4dfc-9e72-652ecd5b595d.jpeg)");
     background-size: 585px;
     background-repeat: no-repeat;
     display: flex;
